@@ -13,7 +13,7 @@
 		   
   <default revision="refs/heads/ics"
            remote="github"
-           sync-j="16" />
+           sync-j="4" />
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
