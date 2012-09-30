@@ -4,7 +4,7 @@ Getting Started
 
 To initialize your local repository using the ParanoidAndroid trees, use a command like this:
 
-    repo init -u git://github.com/PAmoto/android.git -b ics
+    repo init -u git://github.com/PAmoto/android -b ics
 
 Then to sync up:
 
