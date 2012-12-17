@@ -10,3 +10,7 @@ Then to sync up:
 
     repo sync
 
+Using the paranoid build script
+Read here: http://forum.xda-developers.com/showthread.php?t=1837074
+Edit local_manifest.xml with device tree.
+
