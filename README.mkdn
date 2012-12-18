@@ -14,3 +14,8 @@ Using the paranoid build script
 Read here: http://forum.xda-developers.com/showthread.php?t=1837074
 Edit local_manifest.xml with device tree.
 
+Building
+
+    . build/envsetup.sh
+
+    brunch pa_shadow-userdebug
