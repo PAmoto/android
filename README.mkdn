@@ -13,7 +13,7 @@ Then to sync up:
 Using the paranoid build script
 Read here: http://forum.xda-developers.com/showthread.php?t=1837074
 Edit local_manifest.xml in .repo with device tree.
-Example for build for the droid x
+Example for building for the droid x aka shadow.
 
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
@@ -25,7 +25,7 @@ Example for build for the droid x
       <project path="device/motorola/omap34com" name="PAmoto/android_device_motorola_omap34com" remote="github" revision="master" />
     </manifest>
 
-Build command
+Paste the build command. 
 
     ./rom-build.sh shadow true
 
