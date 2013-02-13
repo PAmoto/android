@@ -14,6 +14,7 @@ Using the paranoid build script
 Read here: http://forum.xda-developers.com/showthread.php?t=1837074
 Edit local_manifest.xml in .repo with device tree.
 Example for build for the droid x
+
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
       <project name="Masterchung7/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm9" />
