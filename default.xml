@@ -13,7 +13,7 @@
                   
   <remote  name="paranoid"
            fetch="ssh://git@bitbucket.org/paranoidandroid/" />
-		   
+
   <default revision="refs/heads/ics"
            remote="github"
            sync-j="4" />
@@ -90,8 +90,6 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CM9-D2G/android_external_kernel-headers" remote="github" revision="ics" />
-  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
-  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -225,6 +223,7 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="PAmoto/android_packages_apps_Trebuchet"/>
@@ -264,10 +263,11 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="ics" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="PAmoto/android_system_core" remote="github" revision="ics" />
+  <project path="system/core" name="CM9-D2G/android_system_core" remote="github" revision="ics" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CM9-D2G/android_system_netd" remote="github" revision="ics" />
+  <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="android" name="PAmoto/android" />
